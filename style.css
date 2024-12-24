@@ -11,6 +11,9 @@ body{
     z-index: -1;
   
   }
+  p{
+    margin: 10%;
+  }
 .image-container {
     position: sticky;
     
