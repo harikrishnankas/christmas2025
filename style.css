@@ -2,24 +2,41 @@
     margin: 0;
 }
 body{
-    background-image: url(bgfull.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
+    height: 200vh;
+    z-index: -1;
 }
+.imgcontainer {
+    position: relative;
+    width: 100%;
+    z-index: -1;
+  
+  }
+.image-container {
+    position: sticky;
+    top: 0;
+    background-size: cover;
+    background-image: url(bgfull.webp);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
 #santa_img{
+    position: absolute;
     width: 50vw;
     margin-top: 15vh;
     translate: -50vw 0 ;
-    z-index: 10;
-}
-.container{
-    display: flex;
+    z-index: 5;
 }
 #star_img{
-    width: 303px;
+    position: fixed;
+    translate: 23.7vw  22vh;
+    width: 7vh;
     rotate: 45deg;
     clip-path: polygon(71% 3%, 65% 40%, 98% 57%, 61% 63%, 55% 98%, 39% 67%, 1% 72%, 28% 46%, 11% 12%, 44% 30%);
     /* animation: glow 1s ease-in-out infinite alternate; */
+    z-index: 5;
 }
 
 /* @keyframes glow {
@@ -40,9 +57,12 @@ body{
 }  
 
 @media (max-width: 900px) {
-    body{
+    .image-container{
         background-size: 175vh;
         background-position: 30% 0%;
+    }
+    #star_img{
+        translate: 20vw  0vh;
     }
 
 }
