@@ -1,0 +1,18 @@
+click to glow over the sky (better to add santa with a hoo hooo sound)
+a small icon to scroll
+a star from sky gets down as scroll and get to the tree
+
+
+
+
+
+Todo:
+sat :
+    1.sound - finshed
+    2.bg -finshed
+    3.santa sled(when just click should come) - finshed
+    3.scroll effect (with star coming down) 
+        -download star
+        - add 3 page
+        -add scroll effect (star coming from sky)
+    4. add wishes.
