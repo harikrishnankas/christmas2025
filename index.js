@@ -51,7 +51,7 @@ for(var i = 20; i >= 5; i=i-0.25) {
     const label = Math.min(Math.floor(y/14)+1, imgLen++);
     let position = positionx[label] + "vw " +positiony[label] +"vh";
     document.getElementById("star_img").style.translate = position;
-    
+    document.getElementById("star_img").style.width = (label/8.5) +"vh";
   }
   
   

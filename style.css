@@ -2,7 +2,7 @@
     margin: 0;
 }
 body{
-    height: 200vh;
+    /* height: 200vh; */
     z-index: -1;
 }
 .imgcontainer {
@@ -13,6 +13,7 @@ body{
   }
 .image-container {
     position: sticky;
+    
     top: 0;
     background-size: cover;
     background-image: url(bgfull.webp);
@@ -32,7 +33,7 @@ body{
 #star_img{
     position: fixed;
     translate: 23.7vw  22vh;
-    width: 7vh;
+    width: 0;
     rotate: 45deg;
     clip-path: polygon(71% 3%, 65% 40%, 98% 57%, 61% 63%, 55% 98%, 39% 67%, 1% 72%, 28% 46%, 11% 12%, 44% 30%);
     /* animation: glow 1s ease-in-out infinite alternate; */

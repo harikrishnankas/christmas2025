@@ -1,5 +1,5 @@
 section {
-  min-height: 70vh;
+  min-height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,7 +13,6 @@ section .text-container .text-box {
   padding: 50px;
   color: #D8E3E7;
   text-shadow: 2px 2px 4px #000000;
-  /* background-image: url(https://img.freepik.com/premium-photo/winter-landscape-with-snow-covered-trees-full-moon-night-sky_728418-848.jpg?w=740); */
 }
 
 
